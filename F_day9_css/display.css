@@ -1,0 +1,23 @@
+:root {
+  --color1: rgb(134, 11, 134);
+}
+
+.inline {
+  background-color: var(--color1);
+  padding-right: 50px;
+  color: white;
+  padding: 20px;
+  display: inline-block;
+}
+
+.block {
+  background-color: yellowgreen;
+  
+}
+
+.in-bl {
+  background-color: yellow;
+  display: inline-block;
+  height: 50px;
+  padding: 20px;
+}

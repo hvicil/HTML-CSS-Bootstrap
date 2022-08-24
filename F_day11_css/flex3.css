@@ -1,0 +1,36 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  background-color: aqua;
+  height: 100vh;
+  width: 700px;
+}
+
+.box {
+  background-color: aqua;
+  height: 100px;
+}
+
+.box1 {
+  flex: 0 1 100px;
+  background-color: green;
+}
+
+.box2 {
+  flex: 0 1 100px;
+  background-color: red;
+}
+
+.box3 {
+  flex: 0 1 100px;
+  background-color: blue;
+}
+
+.box4 {
+  flex: 0 1 100px;
+  background-color: yellow;
+}

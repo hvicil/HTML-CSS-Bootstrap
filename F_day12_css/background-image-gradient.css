@@ -1,0 +1,8 @@
+.btn1 {
+  background-image: linear-gradient(grey, red);
+  border-radius: 5px;
+}
+
+body {
+  background-image: radial-gradient(circle, green 2%, yellow);
+}

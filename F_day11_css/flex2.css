@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+
+  background-color: aqua;
+
+  height: 50vh;
+}
+
+.box {
+  background-color: aqua;
+  height: 100px;
+  width: 100px;
+}
+
+.box1 {
+  flex: 1;
+  background-color: green;
+}
+
+.box2 {
+  flex: 1;
+  background-color: red;
+}
+
+.box3 {
+  flex: 1;
+  background-color: blue;
+}
+
+.box4 {
+  flex: 1;
+  background-color: yellow;
+}

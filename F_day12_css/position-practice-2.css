@@ -1,0 +1,31 @@
+.topbar {
+  height: 30px;
+  background-color: blue;
+}
+.menubar {
+  height: 50px;
+  background-color: green;
+  position: sticky;
+  top: 0px;
+}
+
+.main {
+  height: 400vh;
+}
+
+.whatsapp {
+  background-color: greenyellow;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  text-decoration: none;
+  color: black;
+}
+
+

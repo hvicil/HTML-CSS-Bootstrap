@@ -1,0 +1,61 @@
+a {
+  color: green;
+}
+
+a:visited {
+  color: red;
+}
+a:active {
+  background-color: yellow;
+}
+
+.form-el {
+  background-color: rgb(218, 209, 209);
+}
+
+.form-el:focus {
+  background-color: aqua;
+  outline: none;
+}
+
+.form-el:checked {
+  outline: 3px solid red;
+}
+
+ul li {
+  background-color: aqua;
+  margin: 5px;
+  margin-right: 30px;
+}
+
+ul li:first-child {
+  background-color: blueviolet;
+}
+
+ul li:last-child {
+  background-color: chartreuse;
+}
+
+ul li:nth-child(even) {
+  background-color: coral;
+}
+
+.yazi::selection {
+  background-color: darkgreen;
+  color: white;
+}
+
+ul li:nth-child(even)::marker {
+  color: red;
+}
+ul li:hover::marker {
+  color: seagreen;
+}
+
+em::before {
+  content: "[**";
+  color: red;
+}
+em::after {
+  content: "**]";
+}

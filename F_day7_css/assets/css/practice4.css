@@ -1,0 +1,34 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.menu ul {
+  margin-left: 0;
+  margin-right: auto;
+  list-style-type: "✅";
+  padding-left: 25px;
+}
+.menu {
+  background-color: lightgray;
+  width: 8vw;
+  margin-left: 0;
+}
+
+li:hover {
+  background-color: grey;
+}
+li a:hover {
+  color: greenyellow;
+}
+
+a.link {
+  text-decoration: none;
+  color: black;
+}
+a.link:visited {
+  color: black;
+}
+.menu ul li {
+  padding: 5px;
+  margin-left: 0;
+}

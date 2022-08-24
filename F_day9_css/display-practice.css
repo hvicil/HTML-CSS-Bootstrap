@@ -1,0 +1,33 @@
+:root {
+  --color1: rgb(134, 11, 134);
+}
+
+nav.menu li {
+  display: inline-block;
+  background-color: var(--color1);
+  color: aliceblue;
+
+  margin-right: 5px;
+}
+
+nav.menu li:hover {
+  background-color: rgb(95, 10, 95);
+}
+
+nav.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+}
+nav.menu a:hover {
+  color: grey;
+}
+
+nav.menu ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: 0;
+  list-style-position: inside;
+  text-align: center;
+}

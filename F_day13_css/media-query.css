@@ -1,0 +1,47 @@
+body {
+  padding: 10px;
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+  background-color: aqua;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 80vh;
+  align-content: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  flex: 1 0 00px;
+}
+
+.box1 {
+  background-color: red;
+}
+
+.box2 {
+  background-color: blue;
+}
+
+.box3 {
+  background-color: green;
+}
+
+.box4 {
+  background-color: yellow;
+}
+
+@media (max-width: 768px) {
+  .box2 {
+    display: none;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+}

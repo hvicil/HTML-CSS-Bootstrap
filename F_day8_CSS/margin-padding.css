@@ -1,0 +1,46 @@
+:root {
+  --color1: rgb(80, 17, 88);
+  --color2: rgb(219, 216, 216);
+  --color3: rgb(135, 132, 132);
+  --color4: green;
+}
+
+body {
+  padding: 20px;
+}
+.main-box {
+  background-color: var(--color1);
+  padding: 20px;
+}
+
+.main-box h2 {
+  color: var(--color2);
+}
+
+.main-box .sub-box {
+  background-color: var(--color2);
+  padding: 20px;
+}
+.main-box .sub-box .code-box pre {
+  background-color: var(--color3);
+  padding: 20px;
+}
+
+.main-box button {
+  background-color: var(--color1);
+  padding: 10px 10px;
+  color: var(--color2);
+  border: none;
+  margin-top: 5px;
+}
+
+.main-box a {
+  color: var(--color4);
+  padding: 3px;
+}
+
+.main-box a:hover {
+  color: var(--color1);
+  text-decoration: none;
+  padding: 3px;
+}

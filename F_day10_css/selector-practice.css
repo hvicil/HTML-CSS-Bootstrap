@@ -1,0 +1,21 @@
+.chk:checked + .content {
+  background-color: blueviolet;
+}
+
+.chk {
+  display: none;
+}
+
+.lbl-color {
+  background-color: green;
+  cursor: pointer;
+}
+
+.content {
+  height: 80vh;
+  background-color: aqua;
+}
+
+button:hover ~ .content {
+  background-color: blue;
+}
